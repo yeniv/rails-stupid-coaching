@@ -2,6 +2,10 @@ source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.5.3'
+# gem 'capybara'             # should be there already
+# gem 'selenium-webdriver'   # should be there already
+gem 'chromedriver-helper'  # add it!
+gem 'launchy'              # useful for screenshots, add it too!
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.0'
